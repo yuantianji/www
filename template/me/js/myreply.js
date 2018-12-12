@@ -1,0 +1,3 @@
+$('.dingwei2').on('swipe',function () {var index = $(".dingwei2").index(this);delid = $(".dwid2").eq(index).text();});
+(function($){$('#OA_task_2').on('tap', '.mui-btn', function(event) {var elem = this;var li = elem.parentNode.parentNode;mui.confirm('确认删除该回复？', '吃饭吧', btnArray, function(e) {if (e.index == 0) {delmsg2();li.parentNode.removeChild(li);}else{setTimeout(function() {$.swipeoutClose(li);}, 0);}});});var btnArray = ['确认', '取消'];})(mui);
+function delmsg2(){$.ajax({type: "POST",url: delreply_api,xhrFields:{withCredentials: true},dataType: "JSON",data: {"delid":delid,"operate":9},success:function(data){mui.toast(data.msg);if(data.code==0){window.parent.frames[1].location.reload();}},});}

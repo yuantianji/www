@@ -1,0 +1,162 @@
+html,body {background-color: #efeff4;}
+.title {
+	padding: 20px 15px 31px;
+	color: #6d6d72;
+	font-size: 15px;
+	background-color: #fff;
+}
+
+.liuyan{
+	list-style-type:none;
+	margin:0;
+	padding:0;	
+}
+
+.liuyan p{
+	float:left;	
+}
+
+.liuyan a{
+	float:right;	
+}
+
+.avatar-text {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+img.pic{
+	float:left;
+	height:60px;
+	width:60px;
+}
+
+p.content{ 
+  	float:left;
+  	padding-left:55px;
+  	margin-bottom: 0px;
+	color:#7F7F7F;
+}
+
+p.content2{ 
+  	float:left;
+  	padding-left:2px;
+  	margin-bottom: 0px;
+	color:#7F7F7F;
+}
+
+p.time{
+	font-size:10px;
+  	padding-left:55px;
+  	margin-bottom: 0px;
+	color:#AAAAAA;
+}
+p.wenzi{ 
+  	float:left;
+  	padding-left:55px;
+  	margin-bottom: 0px;
+	color: #000000;
+}
+.fasong{
+	bottom: 10px;
+	float:right;
+	background-color: #007AFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border: 1px solid #007AFF;
+    border-radius: 6px;
+}
+
+.quxiao{
+	bottom: 10px;
+	right: 10px;
+	float:right;
+	background-color: white;
+    color: #007AFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border: 1px solid #007AFF;
+    border-radius: 6px;
+}
+#lymb{
+	display:none;
+}
+#textarea{
+	font-size:13px;
+	
+}
+.mokuai{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.ycid{
+	display:none;
+}
+
+.huifu{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.fas{
+	bottom: 10px;
+	float:right;
+	background-color: #007AFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border: 1px solid #007AFF;
+    border-radius: 6px;
+}
+.qux{
+	right: 10px;
+	bottom: 10px;
+	float:right;
+	background-color: white;
+    color: #007AFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border: 1px solid #007AFF;
+    border-radius: 6px;
+}
+.hfmb{
+	display:none;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.hfnr{
+    padding-left: 45px;
+    padding-top: 0px;
+    padding-right: 20px;
+	
+
+}
+.hfname{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	float:left;
+	word-break: break-all;
+}
+
+.fhmsg{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-color:#FCFCFC;
+    word-break: break-all;
+}
+.yuelan { overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}

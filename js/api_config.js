@@ -1,0 +1,14 @@
+var receive_api="../../api/index.php";
+var find_api="../../api/index.php";
+var sendmsg_api="../../api/index.php";
+var replymsg_api="../../api/index.php";
+var upinfo_api="../../api/index.php";
+var reg_api="../../api/index.php";
+var login_api="../../api/index.php";
+var changepsw_api="../../api/index.php";
+var delmsg_api="../../api/index.php";
+var delreply_api="../../api/index.php";
+var outlogin_api="../../api/index.php";
+var forgetpws_api="../../api/index.php";
+var addcookie_api="../../api/index.php";
+var failcookie_api="../../api/index.php";

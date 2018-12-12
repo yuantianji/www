@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>吃饭吧</title>
+        <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+		<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+		<meta HTTP-EQUIV="expires" CONTENT="0">
+        <meta content="telephone=no" name="format-detection">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<script>document.write("<script src='../../js/version.js?_=" + new Date().getTime() + "'><\/script>");</script>
+		<script>document.write("<link rel='stylesheet' href='../../css/mui.min.css?v=" + v + "'>");</script>
+		<script>document.write("<script src='../../js/mui.min.js?v=" + v + "'><\/script>");</script>
+		<script>document.write("<script src='../../js/clipboard.min.js?v=" + v + "'><\/script>");</script>
+		<script>document.write("<link rel='icon' type='image/x-icon' href='../../images/chifanba.ico?v=" + v + "' />");</script>
+        <!--<script type="text/javascript">
+            var useragent = navigator.userAgent;
+            if (useragent.match(/MicroMessenger/i) != 'MicroMessenger'){
+            alert('请使用微信访问本页面！');
+            var opened = window.open('about:blank', '_self');
+            opened.opener = null;
+            opened.close();
+            }
+       </script>-->
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-content-padded" >
+				<h1>秋季外卖红包</h1>
+                <h3>2018.10.15更新</h3>
+                <script>
+	                	var clipboard = new ClipboardJS('.liangpiao1', {
+					        text: function () {
+					            return 'https://h5.ele.me/aliday/';
+					        }
+					    });
+                </script>
+				<p>支付宝中打开链接（非口令）：<a href="#" class="liangpiao1" onclick="liangpiao()">https://h5.ele.me/aliday/</a></p>
+				<h2>二维码</h2>
+                <p style="text-align: center;"><img src="./images/7.jpg"/></p>
+			</div>
+		</div>
+		<div id="menu-backdrop" class="menu-backdrop"></div>
+		<script type="text/javascript" charset="utf-8">
+			function liangpiao(){
+				mui.toast('链接复制成功，请在支付宝手动打开链接！')
+			}
+		</script>
+	</body>
+</html>
